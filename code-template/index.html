@@ -31,14 +31,18 @@
         </nav>
     </header>
     <h2>String Utility</h2>
-    <div class="container">
-        <div class="word-count first"><p>Word Count</p></div>
-        <div class="word-count character"><p>Character Count</p></div>
-        <div class="word-count sentence"><p>Sentence Count</p></div>
-        <div class="word-count paragraph"><p>Paragraph Count</p></div>
+    <div class="container content">
+        <div class="word-count first"><p class="first-result">Word Count</p></div>
+        <div class="word-count character"><p class="character-result">Character Count</p></div>
     </div>
     <div class="content">
-        <textarea rows="20" column="150"></textarea>
+        <textarea rows="20" column="150" class="input"></textarea>
     </div>
+    <div class="result content"></div>
+    <div class="content">
+        <button class="submit lowercase">LowerCase</button>
+        <button class="submit uppercase">UpperCase</button>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

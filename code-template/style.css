@@ -120,14 +120,14 @@ h2 , h5 {
   border: 1px solid #6bd5e1;
 }
 
-.btn-humantime, .btn-epoch, .btn-hex, .btn-octal, .btn-decimal {
+.btn-humantime, .btn-epoch, .btn-hex, .btn-octal, .btn-decimal, .submit {
   background-color: rgb(108, 213, 225);
   color: rgb(255, 255, 255);
   font-family: sofia-pro;
   font-weight: 400;
-  margin: 20px;
-  padding: 9px;
-  width: 80%;
+  margin: 10px;
+  padding: 7px;
+  width: 20%;
   max-width: 400px;
   cursor: pointer;
   font-size: medium;
